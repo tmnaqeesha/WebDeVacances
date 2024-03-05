@@ -1,0 +1,271 @@
+html{
+    background-color: black;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.75)), url(https://lp-cms-production.imgix.net/2019-06/3cb45f6e59190e8213ce0a35394d0e11-nice.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.menu{
+    padding: 0.01%;
+	background-color: black;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    line-height: 3px;
+    margin: auto;
+    z-index: 9999;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.menu ul li a:hover{
+    color: coral;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    line-height: 15px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.55s;
+}
+.card4{
+    background-image: url(https://media.timeout.com/images/105211701/image.jpg);
+}
+.card1{
+    background-image: url(https://content.api.news/v3/images/bin/1ca8d73c0d0df8f6273760d01394d09b?width=650);
+}
+.card2{
+    background-image: url(https://a.cdn-hotels.com/gdcs/production67/d1023/0da61101-1af7-4489-9e03-e6546aaf0d9d.jpg?impolicy=fcrop&w=800&h=533&q=medium);
+}
+.card3{
+    background-image: url(https://www.yellowknifevacations.com/wp-content/uploads/2018/12/Aurora-Borealis-Yellowknife-1.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.kl{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kuala_Lumpur_Skyline_at_dusk_1.jpg/1200px-Kuala_Lumpur_Skyline_at_dusk_1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.kl-w{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 660px;
+}
+.kl-yt{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+.antibes{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.75)), url(https://storage.lebonguide.com/crop-1600x700/54/66/E8EBB678-778F-4AD8-BD9E-3CE18A050D05.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.antibes-w{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 160px;
+}
+.antibes iframe{
+    position: relative;
+    top: -40px;
+    left: 720px;
+}
+.yukon{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url(https://images.ctfassets.net/bth3mlrehms2/6yvs0CAsM9HJovGaAzVrkk/1468e40bca51d02dccf87c80adc913cf/Canada_Yukon_Chaine_de_montagnes.jpg?w=1296&h=810&fl=progressive&q=50&fm=jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yukon-w{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 660px;
+}
+.yukon-yt{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+.rome{
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.5)), url(https://cdn.youpic.com/huge/157035_l45unvlbtgn372oq00sfc7icfn_889748.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rome-w{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 160px;
+}
+.rome-yt{
+    position: relative;
+    top: -40px;
+    left: 720px;
+}
+.transport{
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.6)), url(https://images.ctfassets.net/bth3mlrehms2/6yvs0CAsM9HJovGaAzVrkk/1468e40bca51d02dccf87c80adc913cf/Canada_Yukon_Chaine_de_montagnes.jpg?w=1296&h=810&fl=progressive&q=50&fm=jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+a:link{
+  color: skyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+  color: lime;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover{
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+    text-decoration-color: white;
+}
+.heberge{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(https://media.worldnomads.com/travel-safety/worldwide/diving-coral-reef-gettyimages-stuart-westmorland-166264781.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.imageGrid{
+    line-height: 0;
+    position: center;
+}
+.imageGrid .tile{
+  width:33.33%;
+  min-height:20em;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  color:white;
+  font-family:"Verdana",sans-serif;
+  text-shadow: 2px 2px 2px #000;
+  cursor: pointer; 
+}
+.imageGrid .tile:before{
+  content: '';
+  background-color: rgba(15,15,15,0.5);
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.imageGrid .tile:hover:before{
+  display: none;
+}
+.imageGrid .tile .text{
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+}
+.imageGrid .tile .text .content{
+  display: none;
+}
+.imageGrid .tile:hover .text .content{
+  display: block;
+}
+.imageGrid .tile:hover .text .content h2{
+  margin: 0;
+}
+@media (max-width: 1000px){
+  .imageGrid .tile {
+    width: 50%;
+  }
+}
+ 
+@media (max-width: 700px){
+  .imageGrid .tile {
+    width: 100%;
+  }
+}
+.astuces{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(https://assets.goaaa.com/image/upload/w_auto,q_auto:best,f_auto/v1647565564/singularity-migrated-images/northern-lights-aurora-borealis-fairbanks-alaska-via-magazine-aaa-bucket-list-experience-shutterstock_695456167.jpg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.astuces1{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.astuces1 iframe{
+    left: 0;
+    top: 0;
+    height: 40%;
+    width: 40%;
+    position: absolute;
+}

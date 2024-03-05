@@ -1,0 +1,239 @@
+html{
+    background-color: black;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.75)), url(https://lp-cms-production.imgix.net/2019-06/3cb45f6e59190e8213ce0a35394d0e11-nice.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.menu{
+    padding: 0.01%;
+	background-color: black;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    line-height: 3px;
+    margin: auto;
+    z-index: 9999;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.menu ul li a:hover{
+    color: coral;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    line-height: 15px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.55s;
+}
+.card4{
+    background-image: url(https://media.timeout.com/images/105211701/image.jpg);
+}
+.card1{
+    background-image: url(https://content.api.news/v3/images/bin/1ca8d73c0d0df8f6273760d01394d09b?width=650);
+}
+.card2{
+    background-image: url(https://a.cdn-hotels.com/gdcs/production67/d1023/0da61101-1af7-4489-9e03-e6546aaf0d9d.jpg?impolicy=fcrop&w=800&h=533&q=medium);
+}
+.card3{
+    background-image: url(https://www.yellowknifevacations.com/wp-content/uploads/2018/12/Aurora-Borealis-Yellowknife-1.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.kl{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kuala_Lumpur_Skyline_at_dusk_1.jpg/1200px-Kuala_Lumpur_Skyline_at_dusk_1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.kl-w{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 550px;
+}
+.kl-yt{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+.antibes{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.75)), url(https://storage.lebonguide.com/crop-1600x700/54/66/E8EBB678-778F-4AD8-BD9E-3CE18A050D05.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.antibes-w{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 160px;
+}
+.antibes iframe{
+    position: relative;
+    top: -40px;
+    left: 620px;
+}
+.yukon{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url(https://images.ctfassets.net/bth3mlrehms2/6yvs0CAsM9HJovGaAzVrkk/1468e40bca51d02dccf87c80adc913cf/Canada_Yukon_Chaine_de_montagnes.jpg?w=1296&h=810&fl=progressive&q=50&fm=jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yukon-w{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 660px;
+}
+.yukon-yt{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+.rome{
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.5)), url(https://cdn.youpic.com/huge/157035_l45unvlbtgn372oq00sfc7icfn_889748.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rome-w{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 160px;
+}
+.rome-yt{
+    position: relative;
+    top: -40px;
+    left: 620px;
+}
+.transport{
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.5)), url(https://images.ctfassets.net/bth3mlrehms2/6yvs0CAsM9HJovGaAzVrkk/1468e40bca51d02dccf87c80adc913cf/Canada_Yukon_Chaine_de_montagnes.jpg?w=1296&h=810&fl=progressive&q=50&fm=jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+a:link {
+  color: skyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: blueviolet;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+    text-decoration-color: white;
+}
+.heberge{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(http://cdn.cnn.com/cnnnext/dam/assets/210317220954-restricted-02-northern-lights-sounds.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.image-grid div {
+  width: 25%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image01 { background-image: url('https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_680/fl_lossy.progressive,q_85/c_fill,w_680/fl_lossy.progressive/q_auto/f_auto/c_fill/blogen/2018/06/paris-hotels-with-eiffel-tower-view9.jpg');
+opacity: 80%;
+filter: blur(1px);
+}
+.image02 { background-image: url('https://curlytales.com/wp-content/uploads/2020/11/maldives-water-villas.jpg');
+opacity: 80%;
+filter: blur(1px);
+}
+.image03 { background-image: url('https://www.livelikeitstheweekend.com/wp-content/uploads/2018/01/airbnb.jpg');
+opacity: 80%;
+filter: blur(1px);
+}
+.image04 { background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1280x900/371289533.jpg?k=edcf1da705a5c021c32d4e03885cd8313ba18493fd478bbd43b1704d547a9a97&o=&hp=1');
+opacity: 80%;
+filter: blur(1px);
+}
+.image05 { background-image: url('https://www.travelandleisure.com/thmb/BJupPeakYV7RY_vQQnmvrKAl7LU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/soneva-jani-sunset-view-maldives-SONEVA0421-74b37591d80441ce87831a41da518e49.jpg');
+opacity: 80%;
+filter: blur(1px);
+}
+.image06 { background-image: url('https://media.nomadicmatt.com/2021/hostelstay1.jpg');
+opacity: 80%;
+filter: blur(1px);
+}
+.image07 { background-image: url('https://hospitality-on.com/sites/default/files/styles/image994x499/public/2019-07/airbnb_-_te_kahu_-_wanaka_new_zealand.jpg?h=a1e1a043&itok=jvGCtuWm');
+opacity: 80%;
+filter: blur(1px);
+}
+.image08 { background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/1e/86/cf/club-suite.jpg?w=700&h=-1&s=1');
+opacity: 80%;
+filter: blur(1px);
+}
+@media screen and (max-width: 400px) {
+  .image-grid {
+    flex-direction: column;
+    flex-wrap: no-wrap;
+  }
+  .image-grid div { width: 100%; }
+}
